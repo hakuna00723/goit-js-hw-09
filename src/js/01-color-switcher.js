@@ -12,9 +12,11 @@ btnStart.addEventListener('click', () => {
     bckgr.style.backgroundColor = getRandomHexColor();
   }, 1000);
   btnStart.disabled = true;
+  btnStop.disabled = false;
 });
 
 btnStop.addEventListener('click', () => {
   clearInterval(timerId);
   btnStart.disabled = false;
+  btnStop.disabled = true;
 });
