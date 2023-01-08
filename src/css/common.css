@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  margin-bottom: 100px;
+}
+
+.timer {
+  display: flex;
+  gap: 9px;
+  box-shadow: 0px 0px 27px 27px #000000;
+  background-image: url(https://w.wallhaven.cc/full/rr/wallhaven-rr29k1.png);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.value {
+  font-size: 81px;
+  color: white;
+}
+
+.label {
+  font-size: 27px;
+  color: white;
+}
